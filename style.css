@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+/*    background-color: #252525; */
+    background-color: rgb(214, 214, 214); 
+} 
+main {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+/*    background-color: #252525; */
+    background: rgb(214, 214, 214);
+    box-shadow: 5px 5px 10px #acb1b6,
+                -5px -5px 10px rgba(244, 244, 244, 0.8),
+                inset 2px 2px 5px #acb1b6dc,
+                inset -5px -5px 10px rgb(244, 244, 244, 0.8);
+}
+.numbers {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: rgba(5, 43, 87, 0.794);
+}
+.numbers div:nth-child(12)::before{
+    position: absolute;
+    top: 12px;
+    right: 128px;
+    content: '12';
+}
+.numbers div:nth-child(1)::before{
+    position: absolute;
+    transform: rotate(40deg);
+    top: 32px;
+    right: 85px;
+    width: 4px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgba(5, 43, 87, 0.794);
+    content: '';
+}
+.numbers div:nth-child(2)::before{
+    position: absolute;
+    transform: rotate(48deg);
+    top: 76px;
+    right: 52px;
+    width: 4px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgba(5, 43, 87, 0.794);
+    content: '';
+}
+.numbers div:nth-child(3)::before{
+    position: absolute;
+    top: 120px;
+    right: 24px;
+    content: '3';
+}
+.numbers div:nth-child(4)::before{
+    content: '';
+}
+.numbers div:nth-child(5)::before{
+    content: '';
+}
+.numbers div:nth-child(6)::before{
+    position: absolute;
+    bottom: 12px;
+    top: px;
+    right: 129px;
+    content: '6';
+}
+.numbers div:nth-child(7)::before{
+    content: '';
+}
+.numbers div:nth-child(8)::before{
+    content: '';
+}
+.numbers div:nth-child(9)::before{
+    position: absolute;
+    top: 120px;
+    right: 239px;
+    content: '9';
+}
+.numbers div:nth-child(10)::before{
+    content: '';
+}
+.numbers div:nth-child(11)::before{
+    content: '';
+}
+.hands {
+
+}
+.hour-hand {
+
+}
